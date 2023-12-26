@@ -4,16 +4,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #979797;
+  /* border-bottom: 1px solid #979797; */
   color: #fff;
 }
 
 .header button {
   background-color: transparent;
   border-color: transparent;
-}
-.desktopNav {
-  display: none;
 }
 
 @media (min-width: 768px) {
