@@ -1,0 +1,48 @@
+.header {
+  background-color: #191919;
+  padding: 24px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #979797;
+  color: #fff;
+}
+
+.header button {
+  background-color: transparent;
+  border-color: transparent;
+}
+.desktopNav {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .header {
+    justify-content: flex-start;
+    padding: 32px 40px;
+    gap: 42px;
+  }
+  .cartBtn {
+    margin-left: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header {
+    gap: 197px;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .hamburger {
+    display: none;
+  }
+  .desktopNav {
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    ul {
+      display: flex;
+      gap: 34px;
+    }
+  }
+}
