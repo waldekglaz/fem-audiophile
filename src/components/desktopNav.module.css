@@ -10,6 +10,9 @@
     ul {
       display: flex;
       gap: 34px;
+      a:hover {
+        color: #d87d4a;
+      }
     }
   }
 }
